@@ -19,7 +19,7 @@ public class MyController {
     MyService myService;
 
     //This annotation can be used both at the class and at the method level.
-    @RequestMapping("/")
+    @RequestMapping("")
     public String index() {
         return "Greetings from Spring Boot!";
     }
